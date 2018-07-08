@@ -1,0 +1,7 @@
+#idea project conf
+/.idea
+*.iml
+
+#target 
+/logs/
+/mqPractice/target/
