@@ -1,4 +1,4 @@
-package com.jd.ThreadTest;
+package com.jd.SimpleThreadTest;
 
 public class Mythread extends Thread {
     private String name;
@@ -11,11 +11,11 @@ public class Mythread extends Thread {
     public void run(){
         for (int i = 0; i < 5; i++) {
             System.out.println(name+":"+i);
-            /*try {
+            try {
                 sleep(1000); //休眠1秒，避免太快导致看不到同时执行
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }*/
+            }
         }
     }
 

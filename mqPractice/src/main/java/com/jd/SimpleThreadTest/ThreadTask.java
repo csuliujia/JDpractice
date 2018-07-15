@@ -1,4 +1,4 @@
-package com.jd.ThreadTest;
+package com.jd.SimpleThreadTest;
 
 public class ThreadTask {
 
